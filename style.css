@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+    background: #FFF8F8;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ height: 100%;
+ min-height: 100%;
+ width: 1400px;
+ height: auto !important;
+    margin: 0 auto 0 auto;
+    
+}
+
+
+
+/*шапка сайта*/
+header{
+    display: flex;
+}
+.logotip{
+display: flex;
+margin-left: 80px;
+margin-top: 41px;
+}
+.logotext1{
+    color: #2A2940;
+    font-family: 'Noto Sans', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.logotext2{
+    color: #FE0000;
+    font-family: 'Noto Sans', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.menu{
+   
+    margin-top: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration-line: none;
+    margin-left:584px ;
+}
+.link-menu{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #2A2940;
+    font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.link-menu:hover{
+    color: #FE0000; 
+}
+.cnopci-menu{
+    display: flex;
+    margin-top: 60px;
+    margin-left:33px ;
+}
+.korzina{
+    margin-left: 43px;
+}
+
+
+/*наполяемость сайта*/
+.header-main
+{
+margin-top: 95px;
+margin-left: 91px;
+display: flex;
+}
+.zogolovok{
+    color: #2A2940;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 125% */
+text-transform: capitalize;
+}
+/*маршрутизация по карточкам*/
+.manu-po-cartochkam{
+    display: flex;
+    margin-left: 163px;
+    margin-top: 10px;
+    width: 696px;
+height: 60px;
+    border-radius: 5px;
+border: 1px solid #FFA41C;
+}
+.link-manu{
+    margin-right: 77px;
+    margin-top: 120px;
+    text-decoration: none;
+    color: #2A2940;
+    font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.pynkt{
+    margin-top: 15px;
+    margin-left: 36px;
+}
+.link-manu:hover{
+    width: 110px;
+    height: 44px;
+    color: #FFFFFF;
+        border-radius: 39px;
+    background: #FA930A;
+}
+
+.palki{
+    margin-top: 60px;
+    margin-left: 92px;
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.palki{
+    display: flex;
+}
+.lineNiz{
+    margin-top: 505px;
+    margin-left: 92px;
+}
+.palka1{
+    margin-left: -302px;
+    margin-top: 63px;
+}
+.palka2{
+    margin-left: -342px;
+    margin-top: 63px;
+}
+.palka3{
+    margin-left: -345px;
+    margin-top: 63px;
+}
+.cartocka{
+    display: flex;
+}
+.novinki-serdechoko{
+ display: flex;
+}
+.novinka{
+    position: absolute;
+ 
+}
+.txt-nov{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 102px;
+    height: 26px;
+    border-radius: 8px;
+    background: #FE0000;
+    color: #FFF;
+    
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.serdechko{
+    margin-top: 20px;
+    margin-left: 250px;
+    position: absolute;
+}
+.zz-txt-card{
+    margin-top: 8px;
+    color: #2A2940;
+font-family: 'Noto Sans', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.text_cart{
+    color: #545465;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 222px; /* 166.667% */
+}
+.kypit{
+display: flex;
+}
+.zena{
+    margin-top: 6px;
+    color: #FA930A;
+text-align: center;
+font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.btn-card{
+    margin-left: 172px;
+    width: 35px;
+height: 35px;
+background: #FF6B00;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    width: 1440px;
+height: 627px;
+background: #FBA22B;
+margin-top:124px ;
+}
+.women{
+    width: 730px;
+height: 487px;
+border-radius: 5px;
+margin-top:70px ;
+margin-left: 80px;
+/*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
+.right-storon{
+
+    margin-top: 133px;
+    margin-left: 39px;
+}
+.zz-footer{
+    color: #FFF;
+    font-family: Noto Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    text-transform: capitalize; 
+}
+.txt-footer{
+    width: 463px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.email{
+    border: none;
+    margin-top: 46px;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+text-transform: capitalize;
+}
+.btn-footer{
+    display: block;
+    margin-top: 40px;
+    margin-left: 147px;
+    width: 184.958px;
+    height: 50px;
+    border-radius: 33px;
+    background: #FE0000;
+    color: #FFF;
+text-align: center;
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+text-transform: capitalize;
+border: none;
+}
+
+
+.navbar-toggler{
+    display: none;
+}
+
+/*адаптив Модуль 2*/
+@media (max-width:1110px) {
+    .container{
+        width: auto;
+        padding: 0 30px;
+        width: 100%;
+    }
+  
+     .main{
+       
+        height: 100%;
+        }
+        footer{
+            display: block;
+            width: 1440px;
+        height: 1440px;
+        background: #FBA22B;
+        margin-top:124px ;
+        }
+        .women{
+            margin-left: 40px;
+            width: 700px;
+            height: 487px;
+           
+        }
+        .zg-footer-txt{
+            margin-top: 20px;
+        }
+        .email{
+            margin-left: 0px;
+        }
+        .btn-footer{
+            margin-left: 0px;
+        }
+}
+@media (max-width:992px)
+{
+    .menu_wrapper{
+       flex-wrap:wrap;
+    }
+    .logo{
+        order:-1;
+        width: 100%;
+    }
+    .header{
+    height: 140px;
+    
+    }
+    .pynkt_wrapper{
+        flex-wrap:wrap;
+        margin-left: 10px;
+    }
+    .link-manu{
+        margin-right: 60px;
+    }
+    .palki{
+        width: 1000px;
+        margin-top: 20px;
+    }
+footer{
+    display: block;
+    width: 1440px;
+height: 1440px;
+background: #FBA22B;
+margin-top:124px ;
+}
+.women{
+    margin-left: 3px;
+    width: 700px;
+    height: 487px;
+   
+}
+.zg-footer-txt{
+    margin-top: 20px;
+}
+.email{
+    margin-left: 0px;
+}
+.btn-footer{
+    margin-left: 0px;
+}
+}
+@media (max-width:404px)
+{
+    .logo{
+        order:-1;
+        width: 70%;
+    }
+    .basket{
+        order: -1;
+        text-align: right;
+    }
+    .header-main{
+        display: block;
+
+    }
+    .manu-po-cartochkam{
+        margin-left: 10px;
+        width: 500px;
+    }
+    .pynkt_wrapper{
+        flex-wrap:wrap;
+        margin-left: 9px;
+    }
+    .link-manu{
+       
+        margin-right: 20px;
+    }
+    .palki{
+        width: 600px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .zg-footer-txt{
+        text-align: left;
+    }
+   
+}
+
+@media (max-width:640px)
+{
+   .basket{
+    display: none;
+   }
+   .menu{
+    display: none;
+   }
+   .navbar-toggler{
+    display: none;
+   }
+}
+.show{
+    display: block;
+}
